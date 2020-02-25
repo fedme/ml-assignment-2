@@ -2,34 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cc8d7f4-a339-4560-b458-48f8acd65335" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OLD/problems_analysis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OLD/problems_output/max_k_color/rhc__max_k_color__curves_df.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OLD/problems_output/max_k_color/rhc__max_k_color__curves_df.p" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OLD/problems_output/max_k_color/rhc__max_k_color__run_stats_df.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OLD/problems_output/max_k_color/rhc__max_k_color__run_stats_df.p" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OLD/problems_plots.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/four_peaks/analysis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/four_peaks/optimization.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems.py" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems_analysis.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems_output/queens/ga__queens__curves_df.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems_output/queens/ga__queens__curves_df.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems_output/queens/ga__queens__curves_df.p" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems_output/queens/ga__queens__curves_df.p" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems_output/queens/ga__queens__run_stats_df.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems_output/queens/ga__queens__run_stats_df.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems_output/queens/ga__queens__run_stats_df.p" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems_output/queens/ga__queens__run_stats_df.p" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems_output/queens/mimic__queens__curves_df.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems_output/queens/mimic__queens__curves_df.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems_output/queens/mimic__queens__curves_df.p" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems_output/queens/mimic__queens__curves_df.p" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems_output/queens/mimic__queens__run_stats_df.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems_output/queens/mimic__queens__run_stats_df.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems_output/queens/mimic__queens__run_stats_df.p" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems_output/queens/mimic__queens__run_stats_df.p" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems_output/queens/rhc__queens__curves_df.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems_output/queens/rhc__queens__curves_df.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems_output/queens/rhc__queens__curves_df.p" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems_output/queens/rhc__queens__curves_df.p" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems_output/queens/rhc__queens__run_stats_df.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems_output/queens/rhc__queens__run_stats_df.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems_output/queens/rhc__queens__run_stats_df.p" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems_output/queens/rhc__queens__run_stats_df.p" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems_output/queens/sa__queens__curves_df.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems_output/queens/sa__queens__curves_df.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems_output/queens/sa__queens__curves_df.p" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems_output/queens/sa__queens__curves_df.p" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems_output/queens/sa__queens__run_stats_df.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems_output/queens/sa__queens__run_stats_df.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems_output/queens/sa__queens__run_stats_df.p" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems_output/queens/sa__queens__run_stats_df.p" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_analysis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_output/max_k_color/ga__max_k_color__curves_df.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_output/max_k_color/ga__max_k_color__curves_df.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_output/max_k_color/ga__max_k_color__run_stats_df.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_output/max_k_color/ga__max_k_color__run_stats_df.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_output/max_k_color/mimic__max_k_color__curves_df.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_output/max_k_color/mimic__max_k_color__curves_df.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_output/max_k_color/mimic__max_k_color__run_stats_df.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_output/max_k_color/mimic__max_k_color__run_stats_df.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_output/max_k_color/rhc__max_k_color__curves_df.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_output/max_k_color/rhc__max_k_color__curves_df.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_output/max_k_color/rhc__max_k_color__run_stats_df.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_output/max_k_color/rhc__max_k_color__run_stats_df.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_output/max_k_color/sa__max_k_color__curves_df.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_output/max_k_color/sa__max_k_color__curves_df.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_output/max_k_color/sa__max_k_color__run_stats_df.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_output/max_k_color/sa__max_k_color__run_stats_df.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_output/queens/ga__queens__curves_df.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_output/queens/ga__queens__curves_df.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_output/queens/ga__queens__run_stats_df.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_output/queens/ga__queens__run_stats_df.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_output/queens/mimic__queens__curves_df.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_output/queens/mimic__queens__curves_df.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_output/queens/mimic__queens__run_stats_df.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_output/queens/mimic__queens__run_stats_df.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_output/queens/rhc__queens__curves_df.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_output/queens/rhc__queens__curves_df.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_output/queens/rhc__queens__run_stats_df.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_output/queens/rhc__queens__run_stats_df.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_output/queens/sa__queens__curves_df.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_output/queens/sa__queens__curves_df.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_output/queens/sa__queens__run_stats_df.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_output/queens/sa__queens__run_stats_df.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_plots.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OLD/problems_plots/rhc__max_k_color__iteration_vs_fitness.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
