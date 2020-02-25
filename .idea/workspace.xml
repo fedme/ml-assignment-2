@@ -1,16 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5cc8d7f4-a339-4560-b458-48f8acd65335" name="Default Changelist" comment="" />
+    <list default="true" id="5cc8d7f4-a339-4560-b458-48f8acd65335" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OLD/problems_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OLD/problems_output/max_k_color/rhc__max_k_color__curves_df.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OLD/problems_output/max_k_color/rhc__max_k_color__curves_df.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OLD/problems_output/max_k_color/rhc__max_k_color__run_stats_df.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OLD/problems_output/max_k_color/rhc__max_k_color__run_stats_df.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OLD/problems_plots.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/four_peaks/analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/four_peaks/optimization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems.py" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems_analysis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems_output/queens/ga__queens__curves_df.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems_output/queens/ga__queens__curves_df.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems_output/queens/ga__queens__curves_df.p" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems_output/queens/ga__queens__curves_df.p" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems_output/queens/ga__queens__run_stats_df.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems_output/queens/ga__queens__run_stats_df.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems_output/queens/ga__queens__run_stats_df.p" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems_output/queens/ga__queens__run_stats_df.p" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems_output/queens/mimic__queens__curves_df.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems_output/queens/mimic__queens__curves_df.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems_output/queens/mimic__queens__curves_df.p" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems_output/queens/mimic__queens__curves_df.p" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems_output/queens/mimic__queens__run_stats_df.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems_output/queens/mimic__queens__run_stats_df.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems_output/queens/mimic__queens__run_stats_df.p" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems_output/queens/mimic__queens__run_stats_df.p" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems_output/queens/rhc__queens__curves_df.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems_output/queens/rhc__queens__curves_df.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems_output/queens/rhc__queens__curves_df.p" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems_output/queens/rhc__queens__curves_df.p" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems_output/queens/rhc__queens__run_stats_df.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems_output/queens/rhc__queens__run_stats_df.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems_output/queens/rhc__queens__run_stats_df.p" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems_output/queens/rhc__queens__run_stats_df.p" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems_output/queens/sa__queens__curves_df.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems_output/queens/sa__queens__curves_df.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems_output/queens/sa__queens__curves_df.p" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems_output/queens/sa__queens__curves_df.p" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems_output/queens/sa__queens__run_stats_df.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems_output/queens/sa__queens__run_stats_df.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems_output/queens/sa__queens__run_stats_df.p" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/problems_output/queens/sa__queens__run_stats_df.p" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YFjkDIc6EnnIizYPsRCpeu9atO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\FedericoMeini\source\repos\ml-assignment-2\OLD" />
+      <recent name="C:\Users\FedericoMeini\source\repos\ml-assignment-2\four_peaks" />
       <recent name="C:\Users\FedericoMeini\source\repos\ml-assignment-2\problems_output\queens" />
     </key>
   </component>
@@ -26,7 +64,91 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.problems_analysis">
+  <component name="RunManager" selected="Python.analysis">
+    <configuration name="analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ml-assignment-2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/four_peaks" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/four_peaks/analysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="four_peaks" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ml-assignment-2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\FedericoMeini\source\repos\ml-assignment-2\four_peaks\optimization.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="four_peaks_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ml-assignment-2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/four_peaks" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\FedericoMeini\source\repos\ml-assignment-2\four_peaks\analysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="optimization" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ml-assignment-2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/four_peaks" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/four_peaks/optimization.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="problems" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ml-assignment-2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -39,49 +161,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="problems_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ml-assignment-2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems_analysis.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="queens_problem" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ml-assignment-2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\FedericoMeini\source\repos\ml-assignment-2\problems.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\FedericoMeini\source\repos\ml-assignment-2\OLD\problems.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,9 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.problems_analysis" />
+        <item itemvalue="Python.analysis" />
+        <item itemvalue="Python.optimization" />
+        <item itemvalue="Python.four_peaks_analysis" />
+        <item itemvalue="Python.four_peaks" />
         <item itemvalue="Python.problems" />
-        <item itemvalue="Python.queens_problem" />
       </list>
     </recent_temporary>
   </component>
@@ -111,18 +193,29 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problems.py</url>
-          <line>73</line>
+          <url>file://$PROJECT_DIR$/OLD/problems.py</url>
+          <line>76</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problems_analysis.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="15" />
+          <url>file://$PROJECT_DIR$/OLD/problems.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
