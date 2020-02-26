@@ -2,42 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cc8d7f4-a339-4560-b458-48f8acd65335" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/OLD/problems.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_analysis.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_output/max_k_color/ga__max_k_color__curves_df.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_output/max_k_color/ga__max_k_color__curves_df.p" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_output/max_k_color/ga__max_k_color__run_stats_df.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_output/max_k_color/ga__max_k_color__run_stats_df.p" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_output/max_k_color/mimic__max_k_color__curves_df.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_output/max_k_color/mimic__max_k_color__curves_df.p" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_output/max_k_color/mimic__max_k_color__run_stats_df.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_output/max_k_color/mimic__max_k_color__run_stats_df.p" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_output/max_k_color/rhc__max_k_color__curves_df.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_output/max_k_color/rhc__max_k_color__curves_df.p" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_output/max_k_color/rhc__max_k_color__run_stats_df.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_output/max_k_color/rhc__max_k_color__run_stats_df.p" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_output/max_k_color/sa__max_k_color__curves_df.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_output/max_k_color/sa__max_k_color__curves_df.p" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_output/max_k_color/sa__max_k_color__run_stats_df.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_output/max_k_color/sa__max_k_color__run_stats_df.p" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_output/queens/ga__queens__curves_df.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_output/queens/ga__queens__curves_df.p" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_output/queens/ga__queens__run_stats_df.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_output/queens/ga__queens__run_stats_df.p" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_output/queens/mimic__queens__curves_df.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_output/queens/mimic__queens__curves_df.p" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_output/queens/mimic__queens__run_stats_df.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_output/queens/mimic__queens__run_stats_df.p" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_output/queens/rhc__queens__curves_df.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_output/queens/rhc__queens__curves_df.p" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_output/queens/rhc__queens__run_stats_df.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_output/queens/rhc__queens__run_stats_df.p" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_output/queens/sa__queens__curves_df.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_output/queens/sa__queens__curves_df.p" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_output/queens/sa__queens__run_stats_df.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_output/queens/sa__queens__run_stats_df.p" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_plots.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD/problems_plots/rhc__max_k_color__iteration_vs_fitness.png" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/aaa/analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aaa/optimization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous_peaks/analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous_peaks/optimization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +21,12 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\FedericoMeini\source\repos\ml-assignment-2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\FedericoMeini\source\repos\ml-assignment-2\OLD" />
       <recent name="C:\Users\FedericoMeini\source\repos\ml-assignment-2\four_peaks" />
@@ -73,6 +46,27 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.analysis">
+    <configuration name="analysis (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ml-assignment-2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aaa" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aaa/analysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ml-assignment-2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,11 +75,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/four_peaks" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/continuous_peaks" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/four_peaks/analysis.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/continuous_peaks/analysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="four_peaks" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="optimization (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ml-assignment-2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,11 +96,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/max_k_color" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\FedericoMeini\source\repos\ml-assignment-2\four_peaks\optimization.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/max_k_color/optimization.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +109,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="four_peaks_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="optimization (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ml-assignment-2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,11 +117,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/four_peaks" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aaa" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\FedericoMeini\source\repos\ml-assignment-2\four_peaks\analysis.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aaa/optimization.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,32 +138,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/four_peaks" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/continuous_peaks" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/four_peaks/optimization.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="problems" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ml-assignment-2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\FedericoMeini\source\repos\ml-assignment-2\OLD\problems.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/continuous_peaks/optimization.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,9 +155,9 @@
       <list>
         <item itemvalue="Python.analysis" />
         <item itemvalue="Python.optimization" />
-        <item itemvalue="Python.four_peaks_analysis" />
-        <item itemvalue="Python.four_peaks" />
-        <item itemvalue="Python.problems" />
+        <item itemvalue="Python.analysis (1)" />
+        <item itemvalue="Python.optimization (3)" />
+        <item itemvalue="Python.optimization (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -199,6 +172,14 @@
       <option name="presentableId" value="Default" />
       <updated>1582545376784</updated>
     </task>
+    <task id="LOCAL-00001" summary="Complete Knapsack analysis">
+      <created>1582652814969</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582652814969</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,11 +187,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Complete Knapsack analysis" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete Knapsack analysis" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -224,6 +211,10 @@
           <url>file://$PROJECT_DIR$/OLD/problems.py</url>
           <line>86</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/knapsack/analysis.py</url>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
