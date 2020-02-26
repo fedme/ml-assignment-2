@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cc8d7f4-a339-4560-b458-48f8acd65335" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/aaa/analysis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aaa/optimization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous_peaks/analysis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous_peaks/optimization.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_peaks/continuous_peaks_iterations_vs_fitness.png" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/continuous_peaks_iterations_vs_fitness.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_peaks/ga_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/ga_stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_peaks/mimic_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/mimic_stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_peaks/optimization.py" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/optimization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_peaks/sa_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/sa_stats.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

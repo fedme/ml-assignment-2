@@ -17,11 +17,11 @@ def fitness_func(state):
 
 
 def get_problem():
-    t_pct = 0.5
+    t_pct = 0.06
     size = 100
 
     global orig_fitness_func
-    orig_fitness_func = mlrose_hiive.ContinuousPeaks()
+    orig_fitness_func = mlrose_hiive.ContinuousPeaks(t_pct)
 
     fitness = mlrose_hiive.CustomFitness(fitness_func)
     problem = mlrose_hiive.DiscreteOpt(length=size, fitness_fn=fitness, maximize=True)
