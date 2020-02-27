@@ -1,9 +1,12 @@
+from timeit import default_timer as timer
 import pandas
 import mlrose_hiive
 
 PROBLEM_NAME = 'four_peaks'
+STATS_FOLDER = 'stats'
 eval_count = 0
 orig_fitness_func = mlrose_hiive.FourPeaks(t_pct=0.15)
+SIZE_VALUES = [5, 10, 20, 50]
 
 
 def fitness_func(state):
@@ -12,15 +15,15 @@ def fitness_func(state):
     return orig_fitness_func.evaluate(state)
 
 
-def get_problem():
+def get_problem(size=50):
     fitness = mlrose_hiive.CustomFitness(fitness_func)
-    problem = mlrose_hiive.DiscreteOpt(length=50, fitness_fn=fitness, maximize=True)
+    problem = mlrose_hiive.DiscreteOpt(length=size, fitness_fn=fitness, maximize=True)
     return problem
 
 
-def rhc_optimization():
+def rhc_optimization(size):
     algo = 'rhc'
-    problem = get_problem()
+    problem = get_problem(size)
 
     # Gridsearch params
     max_iters = 500
@@ -29,7 +32,7 @@ def rhc_optimization():
 
     # Best vals
     restarts, max_attempts = None, None
-    fitness, curves, n_invocations = float('-inf'), [], 0
+    fitness, curves, n_invocations, time = float('-inf'), [], 0, 0
 
     # Gridsearch
     global eval_count
@@ -37,12 +40,15 @@ def rhc_optimization():
         for run_max_attempts in max_attempts_values:
             # Run problem
             eval_count = 0
+            start = timer()
             run_state, run_fitness, run_curves = mlrose_hiive.random_hill_climb(problem,
                                                                                 restarts=run_restarts,
                                                                                 max_attempts=run_max_attempts,
                                                                                 max_iters=max_iters,
                                                                                 random_state=42,
                                                                                 curve=True)
+            end = timer()
+
             # Save curves and params
             if run_fitness > fitness:
                 restarts = run_restarts
@@ -50,20 +56,22 @@ def rhc_optimization():
                 fitness = run_fitness
                 curves = run_curves
                 n_invocations = eval_count
+                time = end - start
 
     df = pandas.DataFrame(curves, columns=['fitness'])
     df['restarts'] = restarts
     df['max_attempts'] = max_attempts
     df['max_iters'] = max_iters
     df['n_invocations'] = n_invocations
-    df.to_csv(f'{algo}_stats.csv', index=False)
+    df['time'] = time
+    df.to_csv(f'{STATS_FOLDER}/{algo}_{size}_stats.csv', index=False)
 
-    print(f'{algo} run.')
+    print(f'{algo}_{size} run.')
 
 
-def sa_optimization():
+def sa_optimization(size):
     algo = 'sa'
-    problem = get_problem()
+    problem = get_problem(size)
 
     # Gridsearch params
     max_iters = 500
@@ -72,7 +80,7 @@ def sa_optimization():
 
     # Best vals
     schedule, max_attempts = None, None
-    fitness, curves, n_invocations = float('-inf'), [], 0
+    fitness, curves, n_invocations, time = float('-inf'), [], 0, 0
 
     # Gridsearch
     global eval_count
@@ -80,12 +88,15 @@ def sa_optimization():
         for run_max_attempts in max_attempts_values:
             # Run problem
             eval_count = 0
+            start = timer()
             run_state, run_fitness, run_curves = mlrose_hiive.simulated_annealing(problem,
                                                                                   schedule=run_schedule,
                                                                                   max_attempts=run_max_attempts,
                                                                                   max_iters=max_iters,
                                                                                   random_state=42,
                                                                                   curve=True)
+            end = timer()
+
             # Save curves and params
             if run_fitness > fitness:
                 schedule = run_schedule.__class__.__name__
@@ -93,20 +104,22 @@ def sa_optimization():
                 fitness = run_fitness
                 curves = run_curves
                 n_invocations = eval_count
+                time = end - start
 
     df = pandas.DataFrame(curves, columns=['fitness'])
     df['schedule'] = schedule
     df['max_attempts'] = max_attempts
     df['max_iters'] = max_iters
     df['n_invocations'] = n_invocations
-    df.to_csv(f'{algo}_stats.csv', index=False)
+    df['time'] = time
+    df.to_csv(f'{STATS_FOLDER}/{algo}_{size}_stats.csv', index=False)
 
-    print(f'{algo} run.')
+    print(f'{algo}_{size} run.')
 
 
-def ga_optimization():
+def ga_optimization(size):
     algo = 'ga'
-    problem = get_problem()
+    problem = get_problem(size)
 
     # Gridsearch params
     max_iters = 500
@@ -118,7 +131,7 @@ def ga_optimization():
 
     # Best vals
     pop_size, pop_breed_percent, mutation_prob, max_attempts = None, None, None, None
-    fitness, curves, n_invocations = float('-inf'), [], 0
+    fitness, curves, n_invocations, time = float('-inf'), [], 0, 0
 
     # Gridsearch
     global eval_count
@@ -134,6 +147,7 @@ def ga_optimization():
 
                     # Run problem
                     eval_count = 0
+                    start = timer()
                     run_state, run_fitness, run_curves = mlrose_hiive.genetic_alg(problem,
                                                                                   pop_size=run_pop_size,
                                                                                   pop_breed_percent=run_pop_breed_percent,
@@ -142,6 +156,8 @@ def ga_optimization():
                                                                                   max_iters=max_iters,
                                                                                   random_state=42,
                                                                                   curve=True)
+                    end = timer()
+
                     # Save curves and params
                     if run_fitness > fitness:
                         pop_size = run_pop_size
@@ -151,6 +167,7 @@ def ga_optimization():
                         fitness = run_fitness
                         curves = run_curves
                         n_invocations = eval_count
+                        time = end - start
 
     df = pandas.DataFrame(curves, columns=['fitness'])
     df['pop_size'] = pop_size
@@ -159,14 +176,15 @@ def ga_optimization():
     df['max_attempts'] = max_attempts
     df['max_iters'] = max_iters
     df['n_invocations'] = n_invocations
-    df.to_csv(f'{algo}_stats.csv', index=False)
+    df['time'] = time
+    df.to_csv(f'{STATS_FOLDER}/{algo}_{size}_stats.csv', index=False)
 
-    print(f'{algo} run.')
+    print(f'{algo}_{size} run.')
 
 
-def mimic_optimization():
+def mimic_optimization(size):
     algo = 'mimic'
-    problem = get_problem()
+    problem = get_problem(size)
     problem.set_mimic_fast_mode(True)
 
     # Gridsearch params
@@ -178,7 +196,7 @@ def mimic_optimization():
 
     # Best vals
     pop_size, keep_pct,  max_attempts = None, None, None
-    fitness, curves, n_invocations = float('-inf'), [], 0
+    fitness, curves, n_invocations, time = float('-inf'), [], 0, 0
 
     # Gridsearch
     global eval_count
@@ -192,6 +210,7 @@ def mimic_optimization():
 
                 # Run problem
                 eval_count = 0
+                start = timer()
                 run_state, run_fitness, run_curves = mlrose_hiive.mimic(problem,
                                                                         pop_size=run_pop_size,
                                                                         keep_pct=run_keep_pct,
@@ -199,6 +218,8 @@ def mimic_optimization():
                                                                         max_iters=max_iters,
                                                                         random_state=42,
                                                                         curve=True)
+                end = timer()
+
                 # Save curves and params
                 if run_fitness > fitness:
                     pop_size = run_pop_size
@@ -207,6 +228,7 @@ def mimic_optimization():
                     fitness = run_fitness
                     curves = run_curves
                     n_invocations = eval_count
+                    time = end - start
 
     df = pandas.DataFrame(curves, columns=['fitness'])
     df['pop_size'] = pop_size
@@ -214,13 +236,19 @@ def mimic_optimization():
     df['max_attempts'] = max_attempts
     df['max_iters'] = max_iters
     df['n_invocations'] = n_invocations
-    df.to_csv(f'{algo}_stats.csv', index=False)
+    df['time'] = time
+    df.to_csv(f'{STATS_FOLDER}/{algo}_{size}_stats.csv', index=False)
 
-    print(f'{algo} run.')
+    print(f'{algo}_{size} run.')
+
+
+def run_problems():
+    for size in SIZE_VALUES:
+        rhc_optimization(size)
+        sa_optimization(size)
+        ga_optimization(size)
+        mimic_optimization(size)
 
 
 if __name__ == '__main__':
-    # rhc_optimization()
-    # sa_optimization()
-    # ga_optimization()
-    mimic_optimization()
+    run_problems()
