@@ -4,10 +4,12 @@ import pandas
 import mlrose_hiive
 
 PROBLEM_NAME = 'continuous_peaks'
+STATS_FOLDER = 'stats'
 SEED = 12367
 MAX_ITERS = 1000
 eval_count = 0
 orig_fitness_func = None
+SIZE_VALUES = [5, 10, 20, 50, 100]
 
 
 def fitness_func(state):
@@ -16,10 +18,7 @@ def fitness_func(state):
     return orig_fitness_func.evaluate(state)
 
 
-def get_problem():
-    t_pct = 0.06
-    size = 100
-
+def get_problem(size=100, t_pct=0.06):
     global orig_fitness_func
     orig_fitness_func = mlrose_hiive.ContinuousPeaks(t_pct)
 
@@ -29,9 +28,9 @@ def get_problem():
     return problem
 
 
-def rhc_optimization():
+def rhc_optimization(size):
     algo = 'rhc'
-    problem = get_problem()
+    problem = get_problem(size)
 
     # Gridsearch params
     restarts_values = [10, 30, 50]
@@ -71,14 +70,14 @@ def rhc_optimization():
     df['max_attempts'] = max_attempts
     df['max_iters'] = MAX_ITERS
     df['n_invocations'] = n_invocations
-    df.to_csv(f'{algo}_stats.csv', index=False)
+    df.to_csv(f'{STATS_FOLDER}/{algo}_{size}_stats.csv', index=False)
 
-    print(f'{algo} run.')
+    print(f'{algo}_{size} run.')
 
 
-def sa_optimization():
+def sa_optimization(size):
     algo = 'sa'
-    problem = get_problem()
+    problem = get_problem(size)
 
     # Gridsearch params
 
@@ -125,14 +124,14 @@ def sa_optimization():
     df['max_attempts'] = max_attempts
     df['max_iters'] = MAX_ITERS
     df['n_invocations'] = n_invocations
-    df.to_csv(f'{algo}_stats.csv', index=False)
+    df.to_csv(f'{STATS_FOLDER}/{algo}_{size}_stats.csv', index=False)
 
-    print(f'{algo} run.')
+    print(f'{algo}_{size} run.')
 
 
-def ga_optimization():
+def ga_optimization(size):
     algo = 'ga'
-    problem = get_problem()
+    problem = get_problem(size)
 
     # Gridsearch params
     max_attempts_values = [5]
@@ -179,14 +178,14 @@ def ga_optimization():
     df['max_attempts'] = max_attempts
     df['max_iters'] = MAX_ITERS
     df['n_invocations'] = n_invocations
-    df.to_csv(f'{algo}_stats.csv', index=False)
+    df.to_csv(f'{STATS_FOLDER}/{algo}_{size}_stats.csv', index=False)
 
-    print(f'{algo} run.')
+    print(f'{algo}_{size} run.')
 
 
-def mimic_optimization():
+def mimic_optimization(size):
     algo = 'mimic'
-    problem = get_problem()
+    problem = get_problem(size)
     problem.set_mimic_fast_mode(True)
 
     # Gridsearch params
@@ -230,13 +229,19 @@ def mimic_optimization():
     df['max_attempts'] = max_attempts
     df['max_iters'] = MAX_ITERS
     df['n_invocations'] = n_invocations
-    df.to_csv(f'{algo}_stats.csv', index=False)
+    df.to_csv(f'{STATS_FOLDER}/{algo}_{size}_stats.csv', index=False)
 
-    print(f'{algo} run.')
+    print(f'{algo}_{size} run.')
+
+
+def run_problems():
+    size_values = SIZE_VALUES
+    for size in size_values:
+        rhc_optimization(size)
+        sa_optimization(size)
+        ga_optimization(size)
+        mimic_optimization(size)
 
 
 if __name__ == '__main__':
-    rhc_optimization()
-    sa_optimization()
-    ga_optimization()
-    mimic_optimization()
+    run_problems()

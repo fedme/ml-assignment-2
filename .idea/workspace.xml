@@ -2,10 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cc8d7f4-a339-4560-b458-48f8acd65335" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mlp/analysis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlp/mlp_iterations_vs_f1_score.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlp/mlp_iterations_vs_time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous_peaks/stats/ga_10_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous_peaks/stats/ga_20_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous_peaks/stats/ga_50_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous_peaks/stats/ga_5_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous_peaks/stats/mimic_10_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous_peaks/stats/mimic_20_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous_peaks/stats/mimic_50_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous_peaks/stats/mimic_5_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous_peaks/stats/rhc_10_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous_peaks/stats/rhc_20_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous_peaks/stats/rhc_50_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous_peaks/stats/rhc_5_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous_peaks/stats/sa_10_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous_peaks/stats/sa_20_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous_peaks/stats/sa_50_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous_peaks/stats/sa_5_stats.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_peaks/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_peaks/continuous_peaks_iterations_vs_fitness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_peaks/ga_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/stats/ga_100_stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_peaks/mimic_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/stats/mimic_100_stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_peaks/optimization.py" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/optimization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_peaks/rhc_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/stats/rhc_100_stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_peaks/sa_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/stats/sa_100_stats.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.analysis (2)">
+  <component name="RunManager" selected="Python.analysis">
     <configuration name="analysis (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ml-assignment-2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.analysis" />
+        <item itemvalue="Python.optimization" />
         <item itemvalue="Python.analysis (2)" />
         <item itemvalue="Python.mlp" />
         <item itemvalue="Python.mlp_backprop" />
-        <item itemvalue="Python.optimization" />
-        <item itemvalue="Python.analysis" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582838295728</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Plot iterations vs F1 score and time">
+      <created>1582840170549</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582840170549</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,6 +252,7 @@
     <MESSAGE value="Optimize continuous peaks" />
     <MESSAGE value="Add and load Fashion MNIST data" />
     <MESSAGE value="Train MLP on adult census" />
-    <option name="LAST_COMMIT_MESSAGE" value="Train MLP on adult census" />
+    <MESSAGE value="Plot iterations vs F1 score and time" />
+    <option name="LAST_COMMIT_MESSAGE" value="Plot iterations vs F1 score and time" />
   </component>
 </project>
