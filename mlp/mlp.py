@@ -3,10 +3,10 @@ import pandas as pd
 import mlrose_hiive
 from sklearn.model_selection import cross_val_score
 from sklearn.neural_network import MLPClassifier
-from sklearn.preprocessing import OneHotEncoder
 
 SEED = 42
 DATA_FOLDER = 'data'
+STATS_FOLDER = 'stats'
 x_train, y_train, x_test, y_test = None, None, None, None
 
 
@@ -137,7 +137,7 @@ def train_mlp_and_compute_stats(algo):
     df['max_iters'] = max_iters_values
     df['mean_cv_score'] = mean_cv_scores
     df['train_time'] = times
-    df.to_csv(f'{algo}_stats.csv', index=False)
+    df.to_csv(f'{STATS_FOLDER}/{algo}_stats.csv', index=False)
 
     print(f'MLP with {algo} stats run finished.')
 
