@@ -2,34 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cc8d7f4-a339-4560-b458-48f8acd65335" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/four_peaks/plots/four_peaks_10_iterations_vs_fitness.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/four_peaks/plots/four_peaks_20_iterations_vs_fitness.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/four_peaks/plots/four_peaks_50_iterations_vs_fitness.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/four_peaks/plots/four_peaks_5_iterations_vs_fitness.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/four_peaks/stats/ga_10_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/four_peaks/stats/ga_20_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/four_peaks/stats/ga_50_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/four_peaks/stats/ga_5_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/four_peaks/stats/mimic_10_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/four_peaks/stats/mimic_20_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/four_peaks/stats/mimic_50_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/four_peaks/stats/mimic_5_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/four_peaks/stats/rhc_10_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/four_peaks/stats/rhc_20_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/four_peaks/stats/rhc_50_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/four_peaks/stats/rhc_5_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/four_peaks/stats/sa_10_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/four_peaks/stats/sa_20_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/four_peaks/stats/sa_50_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/four_peaks/stats/sa_5_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knapsack/plots/knapsack_100_iterations_vs_fitness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knapsack/stats/ga_100_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knapsack/stats/ga_10_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knapsack/stats/ga_20_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knapsack/stats/ga_50_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knapsack/stats/ga_5_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knapsack/stats/mimic_100_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knapsack/stats/mimic_10_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knapsack/stats/mimic_20_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knapsack/stats/mimic_50_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knapsack/stats/mimic_5_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knapsack/stats/rhc_100_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knapsack/stats/rhc_10_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knapsack/stats/rhc_20_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knapsack/stats/rhc_50_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knapsack/stats/rhc_5_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knapsack/stats/sa_100_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knapsack/stats/sa_10_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knapsack/stats/sa_20_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knapsack/stats/sa_50_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knapsack/stats/sa_5_stats.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/four_peaks/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/four_peaks/analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/four_peaks/four_peaks_iterations_vs_fitness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/four_peaks/ga_stats.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/four_peaks/mimic_stats.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/four_peaks/optimization.py" beforeDir="false" afterPath="$PROJECT_DIR$/four_peaks/optimization.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/four_peaks/rhc_stats.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/four_peaks/sa_stats.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/knapsack/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/knapsack/analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knapsack/optimization.py" beforeDir="false" afterPath="$PROJECT_DIR$/knapsack/optimization.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.analysis (1)">
+  <component name="RunManager" selected="Python.analysis (2)">
     <configuration name="analysis (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ml-assignment-2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,11 +98,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mlp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/knapsack" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mlp/analysis.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knapsack/analysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,7 +153,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="optimization" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="optimization (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ml-assignment-2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,11 +161,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/continuous_peaks" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/knapsack" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/continuous_peaks/optimization.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knapsack/optimization.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.analysis (2)" />
+        <item itemvalue="Python.optimization (2)" />
         <item itemvalue="Python.analysis (1)" />
         <item itemvalue="Python.optimization (1)" />
         <item itemvalue="Python.analysis" />
-        <item itemvalue="Python.optimization" />
-        <item itemvalue="Python.analysis (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582842083692</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Test four_peaks on multiple problem sizes">
+      <created>1582843362791</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1582843362791</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -273,6 +276,7 @@
     <MESSAGE value="Plot iterations vs F1 score and time" />
     <MESSAGE value="Optimize continuous peaks on different problem sizes" />
     <MESSAGE value="Add times to continuous peaks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add times to continuous peaks" />
+    <MESSAGE value="Test four_peaks on multiple problem sizes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test four_peaks on multiple problem sizes" />
   </component>
 </project>
