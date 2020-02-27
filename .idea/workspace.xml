@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5cc8d7f4-a339-4560-b458-48f8acd65335" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/fashion_mnist_x_test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/fashion_mnist_x_train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/fashion_mnist_y_test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/fashion_mnist_y_train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlp_backprop/mlp_backprop.py" afterDir="false" />
+    <list default="true" id="5cc8d7f4-a339-4560-b458-48f8acd65335" name="Default Changelist" comment="Add and load Fashion MNIST data">
+      <change afterPath="$PROJECT_DIR$/mlp/backprop_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mlp/data/adult_census_x_test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mlp/data/adult_census_x_train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mlp/data/adult_census_y_test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mlp/data/adult_census_y_train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mlp/ga_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mlp/gd_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mlp/rhc_stats.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mlp/sa_stats.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/fashion_mnist_x_test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/fashion_mnist_x_train.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/fashion_mnist_y_test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/fashion_mnist_y_train.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mlp_backprop/mlp_backprop.py" beforeDir="false" afterPath="$PROJECT_DIR$/mlp/mlp.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,13 +37,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\FedericoMeini\source\repos\ml-assignment-2" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\FedericoMeini\source\repos\ml-assignment-2\mlp" />
       <recent name="C:\Users\FedericoMeini\source\repos\ml-assignment-2\OLD" />
       <recent name="C:\Users\FedericoMeini\source\repos\ml-assignment-2\four_peaks" />
       <recent name="C:\Users\FedericoMeini\source\repos\ml-assignment-2\problems_output\queens" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\FedericoMeini\source\repos\ml-assignment-2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -49,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mlp_backprop">
+  <component name="RunManager" selected="Python.mlp">
     <configuration name="analysis (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ml-assignment-2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,6 +102,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="mlp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ml-assignment-2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mlp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mlp/mlp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="mlp_backprop" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ml-assignment-2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,27 +136,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mlp_backprop/mlp_backprop.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="optimization (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ml-assignment-2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aaa" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aaa/optimization.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mlp" />
         <item itemvalue="Python.mlp_backprop" />
         <item itemvalue="Python.optimization" />
         <item itemvalue="Python.analysis" />
         <item itemvalue="Python.analysis (1)" />
-        <item itemvalue="Python.optimization (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582734372529</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add and load Fashion MNIST data">
+      <created>1582737297176</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582737297176</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,36 +227,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Complete Knapsack analysis" />
     <MESSAGE value="Optimize continuous peaks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimize continuous peaks" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/OLD/problems.py</url>
-          <line>76</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/OLD/problems.py</url>
-          <line>86</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/knapsack/analysis.py</url>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/mlp_backprop/mlp_backprop.py</url>
-          <line>37</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/mlp_backprop/mlp_backprop.py</url>
-          <line>32</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Add and load Fashion MNIST data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add and load Fashion MNIST data" />
   </component>
 </project>
