@@ -2,30 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cc8d7f4-a339-4560-b458-48f8acd65335" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/continuous_peaks/stats/ga_10_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous_peaks/stats/ga_20_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous_peaks/stats/ga_50_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous_peaks/stats/ga_5_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous_peaks/stats/mimic_10_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous_peaks/stats/mimic_20_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous_peaks/stats/mimic_50_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous_peaks/stats/mimic_5_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous_peaks/stats/rhc_10_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous_peaks/stats/rhc_20_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous_peaks/stats/rhc_50_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous_peaks/stats/rhc_5_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous_peaks/stats/sa_10_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous_peaks/stats/sa_20_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous_peaks/stats/sa_50_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous_peaks/stats/sa_5_stats.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/continuous_peaks/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/continuous_peaks/continuous_peaks_iterations_vs_fitness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/continuous_peaks/ga_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/stats/ga_100_stats.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/continuous_peaks/mimic_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/stats/mimic_100_stats.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/continuous_peaks/optimization.py" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/optimization.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/continuous_peaks/rhc_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/stats/rhc_100_stats.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/continuous_peaks/sa_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/stats/sa_100_stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_peaks/stats/ga_100_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/stats/ga_100_stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_peaks/stats/ga_10_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/stats/ga_10_stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_peaks/stats/ga_20_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/stats/ga_20_stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_peaks/stats/ga_50_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/stats/ga_50_stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_peaks/stats/ga_5_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/stats/ga_5_stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_peaks/stats/mimic_100_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/stats/mimic_100_stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_peaks/stats/mimic_10_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/stats/mimic_10_stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_peaks/stats/mimic_20_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/stats/mimic_20_stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_peaks/stats/mimic_50_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/stats/mimic_50_stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_peaks/stats/mimic_5_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/stats/mimic_5_stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_peaks/stats/rhc_100_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/stats/rhc_100_stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_peaks/stats/rhc_10_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/stats/rhc_10_stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_peaks/stats/rhc_20_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/stats/rhc_20_stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_peaks/stats/rhc_50_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/stats/rhc_50_stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_peaks/stats/rhc_5_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/stats/rhc_5_stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_peaks/stats/sa_100_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/stats/sa_100_stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_peaks/stats/sa_10_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/stats/sa_10_stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_peaks/stats/sa_20_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/stats/sa_20_stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_peaks/stats/sa_50_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/stats/sa_50_stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continuous_peaks/stats/sa_5_stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/stats/sa_5_stats.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -230,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582840170549</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Optimize continuous peaks on different problem sizes">
+      <created>1582841461182</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582841461182</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,6 +258,7 @@
     <MESSAGE value="Add and load Fashion MNIST data" />
     <MESSAGE value="Train MLP on adult census" />
     <MESSAGE value="Plot iterations vs F1 score and time" />
-    <option name="LAST_COMMIT_MESSAGE" value="Plot iterations vs F1 score and time" />
+    <MESSAGE value="Optimize continuous peaks on different problem sizes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimize continuous peaks on different problem sizes" />
   </component>
 </project>
