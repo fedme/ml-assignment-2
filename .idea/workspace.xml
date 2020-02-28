@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5cc8d7f4-a339-4560-b458-48f8acd65335" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlp/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/mlp/analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -272,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582899154967</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Uncomment code">
+      <created>1582902103588</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1582902103588</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -304,6 +311,7 @@
     <MESSAGE value="Plot confusion matrices and update README" />
     <MESSAGE value="Fix typos in README" />
     <MESSAGE value="Add problem size to plots titles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add problem size to plots titles" />
+    <MESSAGE value="Uncomment code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uncomment code" />
   </component>
 </project>

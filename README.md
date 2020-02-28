@@ -9,6 +9,13 @@ Python 3.7 is required together with the latest version of the following package
 - `mlrose_hiive`
 
 
+## Obtaining the source code
+1. Clone the code repository on your computer:
+```
+git clone https://github.com/fedme/ml-assignment-2
+```
+
+
 ## Optimization problems
 1. Navigate to the directory of the optimization problem:
 ```
