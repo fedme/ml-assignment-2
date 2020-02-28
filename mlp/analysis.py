@@ -66,29 +66,29 @@ def plot_confusion_matrices():
     x_test = mlp_training.x_test
     y_test = mlp_training.y_test
 
-    # algo = 'backprop'
-    # print(f'Training MLP with {algo}...')
-    # mlp = mlp_training.get_mlp(algo, 600)
-    # mlp.fit(x_train, y_train)
-    # plot_mlp_confusion_matrix(algo, mlp, x_test, y_test)
+    algo = 'backprop'
+    print(f'Training MLP with {algo}...')
+    mlp = mlp_training.get_mlp(algo, 600)
+    mlp.fit(x_train, y_train)
+    plot_mlp_confusion_matrix(algo, mlp, x_test, y_test)
 
-    # algo = 'gd'
-    # print(f'Training MLP with {algo}...')
-    # mlp = mlp_training.get_mlp(algo, 200)
-    # mlp.fit(x_train, y_train)
-    # plot_mlp_confusion_matrix(algo, mlp, x_test, y_test)
+    algo = 'gd'
+    print(f'Training MLP with {algo}...')
+    mlp = mlp_training.get_mlp(algo, 200)
+    mlp.fit(x_train, y_train)
+    plot_mlp_confusion_matrix(algo, mlp, x_test, y_test)
 
-    # algo = 'ga'
-    # print(f'Training MLP with {algo}...')
-    # mlp = mlp_training.get_mlp(algo, 200)
-    # mlp.fit(x_train, y_train)
-    # plot_mlp_confusion_matrix(algo, mlp, x_test, y_test)
+    algo = 'ga'
+    print(f'Training MLP with {algo}...')
+    mlp = mlp_training.get_mlp(algo, 200)
+    mlp.fit(x_train, y_train)
+    plot_mlp_confusion_matrix(algo, mlp, x_test, y_test)
 
-    # algo = 'rhc'
-    # print(f'Training MLP with {algo}...')
-    # mlp = mlp_training.get_mlp(algo, 100)
-    # mlp.fit(x_train, y_train)
-    # plot_mlp_confusion_matrix(algo, mlp, x_test, y_test)
+    algo = 'rhc'
+    print(f'Training MLP with {algo}...')
+    mlp = mlp_training.get_mlp(algo, 100)
+    mlp.fit(x_train, y_train)
+    plot_mlp_confusion_matrix(algo, mlp, x_test, y_test)
 
     algo = 'sa'
     print(f'Training MLP with {algo}...')
@@ -98,6 +98,6 @@ def plot_confusion_matrices():
 
 
 if __name__ == '__main__':
-    # plot_iterations_vs_mean_cv_score()
-    # plot_iterations_vs_time()
+    plot_iterations_vs_mean_cv_score()
+    plot_iterations_vs_time()
     plot_confusion_matrices()

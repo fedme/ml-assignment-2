@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cc8d7f4-a339-4560-b458-48f8acd65335" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/continuous_peaks/plots/continuous_peaks_size100_iterations_vs_fitness.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous_peaks/plots/continuous_peaks_size10_iterations_vs_fitness.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous_peaks/plots/continuous_peaks_size20_iterations_vs_fitness.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous_peaks/plots/continuous_peaks_size50_iterations_vs_fitness.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous_peaks/plots/continuous_peaks_size5_iterations_vs_fitness.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/four_peaks/plots/four_peaks_size10_iterations_vs_fitness.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/four_peaks/plots/four_peaks_size20_iterations_vs_fitness.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/four_peaks/plots/four_peaks_size50_iterations_vs_fitness.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/four_peaks/plots/four_peaks_size5_iterations_vs_fitness.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/continuous_peaks/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/continuous_peaks/plots/continuous_peaks_100_iterations_vs_fitness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/continuous_peaks/plots/continuous_peaks_10_iterations_vs_fitness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/continuous_peaks/plots/continuous_peaks_20_iterations_vs_fitness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/continuous_peaks/plots/continuous_peaks_50_iterations_vs_fitness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/continuous_peaks/plots/continuous_peaks_5_iterations_vs_fitness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/four_peaks/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/four_peaks/analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/four_peaks/plots/four_peaks_10_iterations_vs_fitness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/four_peaks/plots/four_peaks_20_iterations_vs_fitness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/four_peaks/plots/four_peaks_50_iterations_vs_fitness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/four_peaks/plots/four_peaks_5_iterations_vs_fitness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knapsack/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/knapsack/analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knapsack/plots/knapsack_100_iterations_vs_fitness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knapsack/plots/knapsack_10_iterations_vs_fitness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knapsack/plots/knapsack_20_iterations_vs_fitness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knapsack/plots/knapsack_50_iterations_vs_fitness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knapsack/plots/knapsack_5_iterations_vs_fitness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mlp/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/mlp/analysis.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -290,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582892372689</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add problem size to plots titles">
+      <created>1582899154967</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1582899154967</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -321,6 +303,7 @@
     <MESSAGE value="Plot invocations per iteration and elapsed time" />
     <MESSAGE value="Plot confusion matrices and update README" />
     <MESSAGE value="Fix typos in README" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix typos in README" />
+    <MESSAGE value="Add problem size to plots titles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add problem size to plots titles" />
   </component>
 </project>
