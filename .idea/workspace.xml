@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cc8d7f4-a339-4560-b458-48f8acd65335" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mlp/plots/mlp_backprop_confusion_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlp/plots/mlp_ga_confusion_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlp/plots/mlp_gd_confusion_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlp/plots/mlp_rhc_confusion_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlp/plots/mlp_sa_confusion_matrix.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlp/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/mlp/analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlp/mlp.py" beforeDir="false" afterPath="$PROJECT_DIR$/mlp/mlp_training.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -258,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582886150046</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Plot confusion matrices and update README">
+      <created>1582892292628</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1582892292628</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,6 +286,7 @@
     <MESSAGE value="Test knapsack on multiple problem sizes" />
     <MESSAGE value="Organize stats and plots in mlp folder" />
     <MESSAGE value="Plot invocations per iteration and elapsed time" />
-    <option name="LAST_COMMIT_MESSAGE" value="Plot invocations per iteration and elapsed time" />
+    <MESSAGE value="Plot confusion matrices and update README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Plot confusion matrices and update README" />
   </component>
 </project>

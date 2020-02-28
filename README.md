@@ -1,7 +1,7 @@
 # ML Assignment 2
 
 ## Prerequisites
-Python 3.7 is required together with the latest versions of the following packages (all available from PIP):
+Python 3.7 is required together with the latest version of the following packages (all available from PIP):
 - `numpy`
 - `pandas`
 - `matplotlib`
@@ -12,7 +12,7 @@ Python 3.7 is required together with the latest versions of the following packag
 ## Optimization problems
 1. Navigate to the directory of the optimization problem:
 ```
-cd ./{continuous_peaks|for_peaks|knapsack}
+cd ./{continuous_peaks|four_peaks|knapsack}
 ```
 
 2. Run the optimization for all four algorithms on the problem:
