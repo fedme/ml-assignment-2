@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cc8d7f4-a339-4560-b458-48f8acd65335" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/continuous_peaks/plots/invocations_per_iteration.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous_peaks/plots/time_to_solve_problem.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/four_peaks/plots/invocations_per_iteration.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/four_peaks/plots/time_to_solve_problem.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knapsack/plots/invocations_per_iteration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mlp/plots/mlp_backprop_confusion_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mlp/plots/mlp_ga_confusion_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mlp/plots/mlp_gd_confusion_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mlp/plots/mlp_rhc_confusion_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mlp/plots/mlp_sa_confusion_matrix.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/continuous_peaks/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/continuous_peaks/analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/four_peaks/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/four_peaks/analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knapsack/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/knapsack/analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mlp/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/mlp/analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mlp/mlp.py" beforeDir="false" afterPath="$PROJECT_DIR$/mlp/mlp_training.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.analysis (2)">
+  <component name="RunManager" selected="Python.analysis (3)">
     <configuration name="analysis (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ml-assignment-2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,10 +162,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.analysis (3)" />
         <item itemvalue="Python.analysis (2)" />
         <item itemvalue="Python.analysis (1)" />
         <item itemvalue="Python.analysis" />
-        <item itemvalue="Python.analysis (3)" />
         <item itemvalue="Python.optimization (2)" />
       </list>
     </recent_temporary>
@@ -251,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582845088713</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Plot invocations per iteration and elapsed time">
+      <created>1582886150046</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1582886150046</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,6 +286,7 @@
     <MESSAGE value="Test four_peaks on multiple problem sizes" />
     <MESSAGE value="Test knapsack on multiple problem sizes" />
     <MESSAGE value="Organize stats and plots in mlp folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Organize stats and plots in mlp folder" />
+    <MESSAGE value="Plot invocations per iteration and elapsed time" />
+    <option name="LAST_COMMIT_MESSAGE" value="Plot invocations per iteration and elapsed time" />
   </component>
 </project>
